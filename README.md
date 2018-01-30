@@ -42,65 +42,71 @@ http://www.tooplate.com/view/2092-shelf
                     <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
                         <ul class="nav nav-fill tm-main-nav-ul">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Catalogs</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Catalogs</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Awards</a></li>
                             <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>    
                 </nav>
                 
             </header>
             
-            <div class="tm-main-content">
-                <section class="row tm-margin-b-l">
-                    <div class="col-12">
-                        <h2 class="tm-blue-text tm-margin-b-p">Contact Us</h2>
-                    </div>
-                    <div class="col-md-6 col-sm-12 mb-md-0 mb-5 tm-overflow-auto">         
-                        <div class="mr-lg-5">
-                            <!-- contact form -->
-                            <form action="#" method="post" class="tm-contact-form">
-                                <div class="form-group">
-                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                                </div>
-                                <div class="form-group">                                                        
-                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <textarea id="contact_message" name="contact_message" class="form-control" rows="8" placeholder="Message" required></textarea>
-                                </div>
-                                <button type="submit" class="tm-btn tm-btn-blue float-right">Submit</button>
-                            </form>                          
-                        </div>                                       
+            <div class="tm-main-content no-pad-b">
+                    
+                <section class="row tm-item-preview">
+                    <div class="col-md-6 col-sm-12 mb-md-0 mb-5">
+                        <img src="img/image-05-preview.jpg" alt="Image" class="img-fluid tm-img-center-sm">
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <p class="tm-margin-b-p">Morbi auctor euismod dictum. Morbi eu nibh in nulla interdum placerat. Donec pellentesque est at sem aliquam hendrerit.</p>
-                        <address>
-                            <span class="tm-blue-text">Mailing Address</span><br>
-                            1126 Aenean ac mauris at ex,<br>
-                            venenatis lobortis id in 11600 <br><br>
-                            <div class="tm-blue-text">          
-                                Email: <a class="tm-blue-text" href="mailto:info@company.com">info@company.com</a
-                                ><br>
-                                Tel: <a class="tm-blue-text" href="tel:+66100200120">010-020-0120</a><br>
-                                Fax: <a class="tm-blue-text" href="tel:+66900800980">090-080-0980</a><br>    
-                            </div>                            
-                        </address>
-                        
+                        <h2 class="tm-blue-text tm-margin-b-p">Mauris cursus turpis</h2>
+                        <p class="tm-margin-b-p">Suspendisse suscipit tortor eu nunc fermentum pellentesque. Donec vaius diam ut velit porttitor accumsan. Cras ac porttitor urna, in vehicula diam. Ut ultricies leo dapibus, facilisis justo vel, dignissim tortor.</p>
+                        <p class="tm-margin-b-p">Ut iaculis vel libero a auctor. Integer arcu orci, vaius id velit sed, lacinia venenatis felis. Integer in facilisis tortor. Vivamus facilisis mattis finibus. Vestibulum in aliquam nisl. Nunc pretium elementum posuere.</p>
+                        <p class="tm-margin-b-p">Nunc vulputate placerat pulvinar. Integer ornare, enim et vestibulum mattis, dolor lacus congue sapien, eget tempor sapien est ut mauris.</p>
+                        <p class="tm-blue-text tm-margin-b-s">Categories: <a href="#" class="tm-blue-text">New Story</a>, <a href="#" class="tm-blue-text">Epic</a>, <a href="#" class="tm-blue-text">Popular</a></p>
+                        <p class="tm-blue-text tm-margin-b-s">Views: 10,890</p>
+                        <p class="tm-blue-text tm-margin-b">Rating: <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"></p>
+                        <a href="#" class="tm-btn tm-btn-gray tm-margin-r-20 tm-margin-b-s">Preview</a><a href="#" class="tm-btn tm-btn-blue">Download</a>
                     </div>
                 </section>
 
-                <section class="row tm-margin-b-l">
-                    <div class="col-12">
-                        <header>
-                            <h4 class="tm-blue-text tm-margin-b">Our Location</h4>
-                        </header>
-                        <div id="google-map"></div>
-                    </div>
-                </section>
-
-               
+                <div class="tm-gallery no-pad-b">
+                    <div class="row">
+                        <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
+                            <a href="preview.html">
+                                <div class="tm-gallery-item-overlay">
+                                    <img src="img/image-06.jpg" alt="Image" class="img-fluid tm-img-center">
+                                </div>
+                                <p class="tm-figcaption no-pad-b">Suspendisse suscipit</p>
+                            </a>
+                        </figure>
+                        <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
+                            <a href="preview.html">
+                                <div class="tm-gallery-item-overlay">
+                                    <img src="img/image-03.jpg" alt="Image" class="img-fluid tm-img-center">
+                                </div>
+                                <p class="tm-figcaption no-pad-b">Cras non augue</p>
+                            </a>
+                        </figure>
+                        <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
+                            <a href="preview.html">
+                                <div class="tm-gallery-item-overlay">
+                                    <img src="img/image-08.jpg" alt="Image" class="img-fluid tm-img-center">
+                                </div>
+                                <p class="tm-figcaption no-pad-b">Vivamus facilisis</p>
+                            </a>
+                        </figure> 
+                        <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
+                            <a href="preview.html">
+                                <div class="tm-gallery-item-overlay">
+                                    <img src="img/image-05.jpg" alt="Image" class="img-fluid tm-img-center">
+                                </div>
+                                <p class="tm-figcaption no-pad-b">Quisque velit</p>
+                            </a>
+                        </figure>
+                    </div>   
+                </div>                    
+                            
             </div>
 
             <footer>
@@ -115,46 +121,8 @@ http://www.tooplate.com/view/2092-shelf
         <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
         <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
         <script>     
-
-            /* Google map
-            ------------------------------------------------*/
-            var map = '';
-            var center;
-
-            function initialize() {
-                var mapOptions = {
-                    zoom: 16,
-                    center: new google.maps.LatLng(37.769725, -122.462154),
-                    scrollwheel: false
-                };
-            
-                map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
-
-                google.maps.event.addDomListener(map, 'idle', function() {
-                  calculateCenter();
-                });
-            
-                google.maps.event.addDomListener(window, 'resize', function() {
-                  map.setCenter(center);
-                });
-            }
-
-            function calculateCenter() {
-                center = map.getCenter();
-            }
-
-            function loadGoogleMap(){
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-				// use your own API key for Google Maps
-                script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC_iLYB-9nzlBfwB18WEDTCMla3Cr97lsg&v=3.exp&sensor=false&' + 'callback=initialize';
-                document.body.appendChild(script);
-            } 
        
             $(document).ready(function(){
-
-                // Google Map
-                loadGoogleMap();  
                 
                 // Update the current year in copyright
                 $('.tm-current-year').text(new Date().getFullYear());
