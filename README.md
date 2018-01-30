@@ -1,37 +1,180 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
 
-You can use the [editor on GitHub](https://github.com/Carbonbase/Website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Template 2092 Shelf
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+http://www.tooplate.com/view/2092-shelf
 
-### Markdown
+-->
+    <title>SHELF - Your Online Bookstore</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
 
-```markdown
-Syntax highlighted code block
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
 
-# Header 1
-## Header 2
-### Header 3
+    <body>
+        
+        <div class="container">
+            <header class="tm-site-header">
+                <h1 class="tm-site-name">Shelf</h1>
+                <p class="tm-site-description">Your Online Bookstore</p>
+                
+                <nav class="navbar navbar-expand-md tm-main-nav-container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
 
-- Bulleted
-- List
+                    <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
+                        <ul class="nav nav-fill tm-main-nav-ul">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Catalogs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Awards</a></li>
+                            <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>    
+                </nav>
+                
+            </header>
+            
+            <div class="tm-main-content">
+                <section class="row tm-margin-b-l">
+                    <div class="col-12">
+                        <h2 class="tm-blue-text tm-margin-b-p">Contact Us</h2>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-md-0 mb-5 tm-overflow-auto">         
+                        <div class="mr-lg-5">
+                            <!-- contact form -->
+                            <form action="#" method="post" class="tm-contact-form">
+                                <div class="form-group">
+                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                </div>
+                                <div class="form-group">                                                        
+                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="contact_message" name="contact_message" class="form-control" rows="8" placeholder="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="tm-btn tm-btn-blue float-right">Submit</button>
+                            </form>                          
+                        </div>                                       
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="tm-margin-b-p">Morbi auctor euismod dictum. Morbi eu nibh in nulla interdum placerat. Donec pellentesque est at sem aliquam hendrerit.</p>
+                        <address>
+                            <span class="tm-blue-text">Mailing Address</span><br>
+                            1126 Aenean ac mauris at ex,<br>
+                            venenatis lobortis id in 11600 <br><br>
+                            <div class="tm-blue-text">          
+                                Email: <a class="tm-blue-text" href="mailto:info@company.com">info@company.com</a
+                                ><br>
+                                Tel: <a class="tm-blue-text" href="tel:+66100200120">010-020-0120</a><br>
+                                Fax: <a class="tm-blue-text" href="tel:+66900800980">090-080-0980</a><br>    
+                            </div>                            
+                        </address>
+                        
+                    </div>
+                </section>
 
-1. Numbered
-2. List
+                <section class="row tm-margin-b-l">
+                    <div class="col-12">
+                        <header>
+                            <h4 class="tm-blue-text tm-margin-b">Our Location</h4>
+                        </header>
+                        <div id="google-map"></div>
+                    </div>
+                </section>
 
-**Bold** and _Italic_ and `Code` text
+                <section class="media tm-highlight tm-highlight-w-icon">
 
-[Link](url) and ![Image](src)
-```
+                    <div class="tm-highlight-icon">
+                        <i class="fa tm-fa-6x fa-meetup"></i>    
+                    </div>                    
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+                    <div class="media-body">
+                        <header>
+                            <h2>Need Help?</h2>
+                        </header>
+                        <p class="tm-margin-b">Curabitur magna tellus, condimentum vitae consectetur id, elementum sit amet erat. Phasellus arcu leo, sagittis fringilla nisi et, pulvinar vestibulum mi. Maecenas mollis ullamcorper est at dignissim.</p>
+                        <a href="" class="tm-white-bordered-btn">Live Chat</a>
+                    </div>                    
+                </section>
+            </div>
 
-### Jekyll Themes
+            <footer>
+                Copyright &copy; <span class="tm-current-year">2018</span> Shelf Company 
+                
+                - Designed by <a href="http://www.tooplate.com" target="_parent">Tooplate</a>
+            </footer>    
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+        <script>     
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Carbonbase/Website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            /* Google map
+            ------------------------------------------------*/
+            var map = '';
+            var center;
 
-### Support or Contact
+            function initialize() {
+                var mapOptions = {
+                    zoom: 16,
+                    center: new google.maps.LatLng(37.769725, -122.462154),
+                    scrollwheel: false
+                };
+            
+                map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+                google.maps.event.addDomListener(map, 'idle', function() {
+                  calculateCenter();
+                });
+            
+                google.maps.event.addDomListener(window, 'resize', function() {
+                  map.setCenter(center);
+                });
+            }
+
+            function calculateCenter() {
+                center = map.getCenter();
+            }
+
+            function loadGoogleMap(){
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+				// use your own API key for Google Maps
+                script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC_iLYB-9nzlBfwB18WEDTCMla3Cr97lsg&v=3.exp&sensor=false&' + 'callback=initialize';
+                document.body.appendChild(script);
+            } 
+       
+            $(document).ready(function(){
+
+                // Google Map
+                loadGoogleMap();  
+                
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());
+
+            });
+
+        </script>             
+
+</body>
+</html>
